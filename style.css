@@ -127,6 +127,13 @@ body{
     font-size: 16px;
     font-weight: 600;
 }
+.input-box i{
+    position: absolute;
+    right:20px;
+    top:70%;
+    transform: translateY(15%);
+    font-size: 20px;
+}
 #resultDays{
     margin-top: 5px;
     background: transparent;
@@ -147,5 +154,7 @@ body{
     font-size:16px;
     color:#fff;
     text-align: center;
-
+}
+#birthDate::placeholder{
+    color:#fff;
 }

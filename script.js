@@ -13,6 +13,6 @@ document.getElementById('dateForm').addEventListener('submit', function(event) {
         document.getElementById('resultHours').textContent = ` And ${hoursLived} Hours.`;
 
     } else {
-        document.getElementById('result').textContent = 'Please enter a valid date.';
+        document.getElementById('resultAge').textContent = 'Please enter a valid date.';
     }
 });
