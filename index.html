@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date Calculator!</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1869/1869397.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mainall">
+    <div class="wrapper">
+        <h1>Date Calculator</h1>
+        <form id="dateForm">
+            <div class="input-box">
+                <label for="birthDate">Enter your Birthdate:</label>
+                <input type="date" id="birthDate" name="birthDate" min="2000-01-01" max="2024-12-31" required>
+                <button class="btn" type="submit">Calculate</button>
+            </div>
+        </form>
+        <div id="resultAge"></div>
+        <div id="resultDays"></div>
+        <div id="resultHours"></div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
